@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto Slab', serif;
+  color: #524d4d;
 }
 .active{
   color: #38cde0;
@@ -19,10 +20,11 @@
   align-items: center;
   justify-content:center;
   width: 100%;
-  height: 150px;
+  height: fit-content;
   margin-bottom: 20px;
   
 }
+
 
 .details{
   margin-bottom: 40px;
@@ -73,6 +75,23 @@ tr td{
 table, th, td {
   border: 0.5px solid grey;
   border-radius: 2px;
+}
+footer{
+  display: flex;
+  height: 200px;
+  color: grey;
+  align-items: center;
+  font-size: 15px;
+  
+  justify-content: center;
+}
+footer a{
+  margin: 0;
+  text-decoration: none;
+  font-size: 15px;
+  
+  
+  
 }
 
 @media screen and (max-width: 400px) {
